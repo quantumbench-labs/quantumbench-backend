@@ -1,0 +1,494 @@
+{
+  "schemaVersion": 1,
+  "network": "testnet",
+  "sourceAccount": "GCGPNW5SJDEOQRHOEXGPUMWMZKDHVLLCXHP5P6KA2DVTZFNPYBNI5RRB",
+  "transactions": [
+    {
+      "label": "Upload Ed25519 baseline",
+      "hash": "9df7e0d7b37bb73d5402b726d1286764ae824c690c2a35ffbdf88d816c655ac1",
+      "status": "SUCCESS",
+      "ledger": 5369361,
+      "envelopeXdr": "AAAAAgAAAACM9tuySMjoRO4lzPoyzMqGeq1iud/X+UDQ6zyVr8BajgH+MlYAUe4QAAAAAQAAAAEAAAAAAAAAAAAAAABq3QhrAAAAAAAAAAEAAAAAAAAAGAAAAAIAAAIhAGFzbQEAAAABDQJgA35+fgF+YAF+AX4CDQIBYgE4AAEBYwEwAAADAgEABQMBABAGCQF/AEGAgMAACwcTAwZtZW1vcnkCAAJlZAACAV8DAApgAV4AAkAgAEL/AYNCyABSDQAgABAAQoCAgIBwg0KAgICAgARSIAFC/wGDQsgAUnIgAkL/AYNCyABScg0AIAIQAEKAgICAcINCgICAgIAIUg0AIAAgASACEAEaQgEPCwALAB4RY29udHJhY3RlbnZtZXRhdjAAAAAAAAAAHQAAAAAAkwEOY29udHJhY3RtZXRhdjAAAAAAAAAABXJzdmVyAAAAAAAABjEuOTcuMQAAAAAAAAAAAAhyc3Nka3ZlcgAAAC8yOS4wLjEjZTE2NzFhMGNiNThkNGI4YzBiYjhkZTExNWNhZjA4MGNhMDE2NzZlOAAAAAAAAAAAEnJzc2RrX3NwZWNfc2hha2luZwAAAAAAATIAAAAAUw5jb250cmFjdG1ldGF2MAAAAAAAAAAGY2xpdmVyAAAAAAAvMjguMS4wI2MwZjRkMGRhODkxYmJmMjE0YzA4YjhjNTAzNWFlNmRiODBlOWEzYmQAAGMOY29udHJhY3RzcGVjdjAAAAAAAAAAAAAAAAJlZAAAAAAAAwAAAAAAAAACcGsAAAAAA+4AAAAgAAAAAAAAAANtc2cAAAAADgAAAAAAAAADc2lnAAAAA+4AAABAAAAAAQAAAAEAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAQAAAAcVlxGIs6Gd28tA6/GXwcHk+QY1RBacYu4chKSdnGLGawAXwQwAAAAAAAACiAAAAAAB/gtGAAAAAa/AWo4AAABA2sicjfRlj6oqax+g7KQyUOpLBJqDpulgw1o+Wwe90n1+At2vy3Ms2vvZg7qyKq5K/b10B7o3pGDZ+NpHE+YYDA==",
+      "resultXdr": "AAAAAAG7doQAAAAAAAAAAQAAAAAAAAAYAAAAACLm8Seytw9tp43jS8oIiWExpp/SkGGtjBykKHzO94QtAAAAAA=="
+    },
+    {
+      "label": "Deploy Ed25519 baseline",
+      "hash": "677ade4e79b740d98d7957228f7dec0f21b0c0c23780115e5f47a13794647e3d",
+      "status": "SUCCESS",
+      "ledger": 5369362,
+      "envelopeXdr": "AAAAAgAAAACM9tuySMjoRO4lzPoyzMqGeq1iud/X+UDQ6zyVr8BajgAGbf0AUe4QAAAAAgAAAAEAAAAAAAAAAAAAAABq3QhxAAAAAAAAAAEAAAAAAAAAGAAAAAMAAAAAAAAAAAAAAACM9tuySMjoRO4lzPoyzMqGeq1iud/X+UDQ6zyVr8BajvEOF91tz8jiXawZL9yRFliM9XmxyI8zfRkQuUrzijcpAAAAABWXEYizoZ3by0Dr8ZfBweT5BjVEFpxi7hyEpJ2cYsZrAAAAAAAAAAEAAAAAAAAAAgAAAAAAAAAAAAAAAIz227JIyOhE7iXM+jLMyoZ6rWK539f5QNDrPJWvwFqO8Q4X3W3PyOJdrBkv3JEWWIz1ebHIjzN9GRC5SvOKNykAAAAAFZcRiLOhndvLQOvxl8HB5PkGNUQWnGLuHISknZxixmsAAAAAAAAAAAAAAAEAAAAAAAAAAQAAAAcVlxGIs6Gd28tA6/GXwcHk+QY1RBacYu4chKSdnGLGawAAAAEAAAAGAAAAAe/eN9qG+SBVFjQsOgzkOqFrU0w3ZLEDqQA5rsQ6vpMmAAAAFAAAAAEACC1GAAAAAAAAAGgAAAAAAAZG7QAAAAGvwFqOAAAAQL++vGt/AUGLITCrok+eGlQi7hgGThAFOWOrCr26qK0ByYNNvEy5VvvrgweJ0YUEpqyKz21GSMsEwtCN4FO2XQ4=",
+      "resultXdr": "AAAAAAAFZwsAAAAAAAAAAQAAAAAAAAAYAAAAAEI/xF6PalZPpofutkZdxtldGJMsodxA9WXEg2BGclclAAAAAA=="
+    },
+    {
+      "label": "Verify Ed25519 baseline",
+      "hash": "d9b592c1a1308db9f21839a651cda8b228ba100b45b730cedab9783f3d6229e9",
+      "status": "SUCCESS",
+      "ledger": 5369363,
+      "envelopeXdr": "AAAAAgAAAACM9tuySMjoRO4lzPoyzMqGeq1iud/X+UDQ6zyVr8BajgAAQYEAUe4QAAAAAwAAAAEAAAAAAAAAAAAAAABq3Qh3AAAAAAAAAAEAAAAAAAAAGAAAAAAAAAAB79432ob5IFUWNCw6DOQ6oWtTTDdksQOpADmuxDq+kyYAAAACZWQAAAAAAAMAAAANAAAAICOaVrL1E63GrZ6Rm6mUI5T8ke1Xi0xkWbXV2enynJeKAAAADQAAADdTdGVsbGFyIHNpZ25hdHVyZSBwcmVwYXJhdGlvbjogcHVibGljIHRlYWNoaW5nIG1lc3NhZ2UuAAAAAA0AAABAX3q4Arw9HXaGekJdDmfH56zIZEIri3JnyjqfXEKJEsCwq+D+VVGQT9F4yYewu9j3ZQ6M7Ri4h3byODxnEcbKDwAAAAAAAAABAAAAAAAAAAIAAAAGAAAAAe/eN9qG+SBVFjQsOgzkOqFrU0w3ZLEDqQA5rsQ6vpMmAAAAFAAAAAEAAAAHFZcRiLOhndvLQOvxl8HB5PkGNUQWnGLuHISknZxixmsAAAAAAAtIYwAAAAAAAAAAAAAAAAAAGnEAAAABr8BajgAAAEB2J8fZ7j+EeukAdpxkXkNHd/xR6m49wEIE1jMHelTJCAxDDd2mz7XNK4HYLpGowkV5XIhBDub0XdNCP7W1RMMG",
+      "resultXdr": "AAAAAAAACA4AAAAAAAAAAQAAAAAAAAAYAAAAACSd9t66rXopFiB/t/BWPsZ4+3dhRASfFXJZr63aHcEnAAAAAA=="
+    }
+  ],
+  "wasmHash": "15971188b3a19ddbcb40ebf197c1c1e4f9063544169c62ee1c84a49d9c62c66b",
+  "contractId": "CDX54N62Q34SAVIWGQWDUDHEHKQWWU2MG5SLCA5JAA425RB2X2JSNPVZ",
+  "baseline": {
+    "network": {
+      "observedProtocol": 29,
+      "requiredProtocol": 30,
+      "nativeMlDsa": false,
+      "status": "WAITING_FOR_PROTOCOL_30",
+      "scope": "Version eligibility only; requires compatible contract build and a successful simulation before claiming native host results.",
+      "ledger": 5369363,
+      "capturedAt": "2026-10-24T19:33:24.069Z",
+      "rpc": "https://soroban-testnet.stellar.org",
+      "nativeHostMeasurement": null
+    },
+    "results": [
+      {
+        "id": "ed25519-valid",
+        "kind": "TESTNET_SIMULATION",
+        "success": true,
+        "ledger": 5369363,
+        "instructions": 739427,
+        "readBytes": 0,
+        "writeBytes": 0,
+        "minResourceFee": "6769",
+        "transactionDataXdr": "AAAAAAAAAAIAAAAGAAAAAe/eN9qG+SBVFjQsOgzkOqFrU0w3ZLEDqQA5rsQ6vpMmAAAAFAAAAAEAAAAHFZcRiLOhndvLQOvxl8HB5PkGNUQWnGLuHISknZxixmsAAAAAAAtIYwAAAAAAAAAAAAAAAAAAGnE=",
+        "unsignedEnvelopeXdr": "AAAAAgAAAACM9tuySMjoRO4lzPoyzMqGeq1iud/X+UDQ6zyVr8BajgAAJxAAUe4QAAAABAAAAAEAAAAAAAAAAAAAAABq3Qh8AAAAAAAAAAEAAAAAAAAAGAAAAAAAAAAB79432ob5IFUWNCw6DOQ6oWtTTDdksQOpADmuxDq+kyYAAAACZWQAAAAAAAMAAAANAAAAICOaVrL1E63GrZ6Rm6mUI5T8ke1Xi0xkWbXV2enynJeKAAAADQAAADdTdGVsbGFyIHNpZ25hdHVyZSBwcmVwYXJhdGlvbjogcHVibGljIHRlYWNoaW5nIG1lc3NhZ2UuAAAAAA0AAABAX3q4Arw9HXaGekJdDmfH56zIZEIri3JnyjqfXEKJEsCwq+D+VVGQT9F4yYewu9j3ZQ6M7Ri4h3byODxnEcbKDwAAAAAAAAAAAAAAAA=="
+      },
+      {
+        "id": "ed25519-changed-message",
+        "kind": "TESTNET_SIMULATION_REJECTION",
+        "success": false,
+        "ledger": 5369363,
+        "error": "HostError: Error(Crypto, InvalidInput)\n\nEvent log (newest first):\n   0: [Diagnostic Event] contract:CDX54N62Q34SAVIWGQWDUDHEHKQWWU2MG5SLCA5JAA425RB2X2JSNPVZ, topics:[error, Error(Crypto, InvalidInput)], data:\"escalating error to VM trap from failed host function call: verify_sig_ed25519\"\n   1: [Diagnostic Event] contract:CDX54N62Q34SAVIWGQWDUDHEHKQWWU2MG5SLCA5JAA425RB2X2JSNPVZ, topics:[error, Error(Crypto, InvalidInput)], data:\"failed ED25519 verification\"\n   2: [Diagnostic Event] topics:[fn_call, CDX54N62Q34SAVIWGQWDUDHEHKQWWU2MG5SLCA5JAA425RB2X2JSNPVZ, ed], data:[Bytes(239a56b2f513adc6ad9e919ba9942394fc91ed578b4c6459b5d5d9e9f29c978a), Bytes(5274656c6c6172207369676e6174757265207072657061726174696f6e3a207075626c6963207465616368696e67206d6573736167652e), Bytes(5f7ab802bc3d1d76867a425d0e67c7e7acc864422b8b7267ca3a9f5c428912c0b0abe0fe5551904fd178c987b0bbd8f7650e8ced18b88776f2383c6711c6ca0f)]\n",
+        "unsignedEnvelopeXdr": "AAAAAgAAAACM9tuySMjoRO4lzPoyzMqGeq1iud/X+UDQ6zyVr8BajgAAJxAAUe4QAAAABAAAAAEAAAAAAAAAAAAAAABq3Qh9AAAAAAAAAAEAAAAAAAAAGAAAAAAAAAAB79432ob5IFUWNCw6DOQ6oWtTTDdksQOpADmuxDq+kyYAAAACZWQAAAAAAAMAAAANAAAAICOaVrL1E63GrZ6Rm6mUI5T8ke1Xi0xkWbXV2enynJeKAAAADQAAADdSdGVsbGFyIHNpZ25hdHVyZSBwcmVwYXJhdGlvbjogcHVibGljIHRlYWNoaW5nIG1lc3NhZ2UuAAAAAA0AAABAX3q4Arw9HXaGekJdDmfH56zIZEIri3JnyjqfXEKJEsCwq+D+VVGQT9F4yYewu9j3ZQ6M7Ri4h3byODxnEcbKDwAAAAAAAAAAAAAAAA=="
+      }
+    ],
+    "capturedAt": "2026-10-24T19:33:26.211Z",
+    "scope": "Ed25519 baseline simulations only; ML-DSA is not measured on testnet until protocol and contract support are verified."
+  },
+  "offline": {
+    "schemaVersion": 1,
+    "kind": "OFFLINE_OPENSSL",
+    "capturedAt": "2026-10-24T19:33:26.248Z",
+    "sourceHash": "f9a9932b7072c664e828956eedc03ad2990b7a2ba9352d5b7cdc93d2a4dd88c3",
+    "environment": {
+      "node": "v26.0.0",
+      "openssl": "3.6.3",
+      "platform": "darwin",
+      "arch": "arm64",
+      "cpu": "Apple M5"
+    },
+    "iterations": 30,
+    "results": [
+      {
+        "id": "ed25519-valid",
+        "algorithm": "ed25519",
+        "case": "valid",
+        "expected": true,
+        "outcome": "ACCEPT",
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "ed25519-message",
+        "algorithm": "ed25519",
+        "case": "changed message",
+        "expected": false,
+        "outcome": "REJECT",
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "ed25519-signature",
+        "algorithm": "ed25519",
+        "case": "changed signature",
+        "expected": false,
+        "outcome": "REJECT",
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "ed25519-short-key",
+        "algorithm": "ed25519",
+        "case": "truncated key",
+        "expected": false,
+        "outcome": "INVALID_INPUT",
+        "error": "Wrong parameter-set byte length",
+        "passed": true
+      },
+      {
+        "id": "ml-dsa-44-valid",
+        "algorithm": "ml-dsa-44",
+        "case": "valid",
+        "expected": true,
+        "outcome": "ACCEPT",
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "ml-dsa-44-message",
+        "algorithm": "ml-dsa-44",
+        "case": "changed message",
+        "expected": false,
+        "outcome": "REJECT",
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "ml-dsa-44-signature",
+        "algorithm": "ml-dsa-44",
+        "case": "changed signature",
+        "expected": false,
+        "outcome": "REJECT",
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "ml-dsa-44-short-key",
+        "algorithm": "ml-dsa-44",
+        "case": "truncated key",
+        "expected": false,
+        "outcome": "INVALID_INPUT",
+        "error": "Wrong parameter-set byte length",
+        "passed": true
+      },
+      {
+        "id": "ml-dsa-44-context",
+        "algorithm": "ml-dsa-44",
+        "case": "changed context",
+        "expected": false,
+        "outcome": "REJECT",
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "ml-dsa-44-context-limit",
+        "algorithm": "ml-dsa-44",
+        "case": "context 256 bytes",
+        "expected": false,
+        "outcome": "INVALID_INPUT",
+        "error": "Invalid context hex",
+        "passed": true
+      },
+      {
+        "id": "ml-dsa-65-valid",
+        "algorithm": "ml-dsa-65",
+        "case": "valid",
+        "expected": true,
+        "outcome": "ACCEPT",
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "ml-dsa-65-message",
+        "algorithm": "ml-dsa-65",
+        "case": "changed message",
+        "expected": false,
+        "outcome": "REJECT",
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "ml-dsa-65-signature",
+        "algorithm": "ml-dsa-65",
+        "case": "changed signature",
+        "expected": false,
+        "outcome": "REJECT",
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "ml-dsa-65-short-key",
+        "algorithm": "ml-dsa-65",
+        "case": "truncated key",
+        "expected": false,
+        "outcome": "INVALID_INPUT",
+        "error": "Wrong parameter-set byte length",
+        "passed": true
+      },
+      {
+        "id": "ml-dsa-65-context",
+        "algorithm": "ml-dsa-65",
+        "case": "changed context",
+        "expected": false,
+        "outcome": "REJECT",
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "ml-dsa-65-context-limit",
+        "algorithm": "ml-dsa-65",
+        "case": "context 256 bytes",
+        "expected": false,
+        "outcome": "INVALID_INPUT",
+        "error": "Invalid context hex",
+        "passed": true
+      },
+      {
+        "id": "ml-dsa-87-valid",
+        "algorithm": "ml-dsa-87",
+        "case": "valid",
+        "expected": true,
+        "outcome": "ACCEPT",
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "ml-dsa-87-message",
+        "algorithm": "ml-dsa-87",
+        "case": "changed message",
+        "expected": false,
+        "outcome": "REJECT",
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "ml-dsa-87-signature",
+        "algorithm": "ml-dsa-87",
+        "case": "changed signature",
+        "expected": false,
+        "outcome": "REJECT",
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "ml-dsa-87-short-key",
+        "algorithm": "ml-dsa-87",
+        "case": "truncated key",
+        "expected": false,
+        "outcome": "INVALID_INPUT",
+        "error": "Wrong parameter-set byte length",
+        "passed": true
+      },
+      {
+        "id": "ml-dsa-87-context",
+        "algorithm": "ml-dsa-87",
+        "case": "changed context",
+        "expected": false,
+        "outcome": "REJECT",
+        "error": null,
+        "passed": true
+      },
+      {
+        "id": "ml-dsa-87-context-limit",
+        "algorithm": "ml-dsa-87",
+        "case": "context 256 bytes",
+        "expected": false,
+        "outcome": "INVALID_INPUT",
+        "error": "Invalid context hex",
+        "passed": true
+      }
+    ],
+    "measurements": [
+      {
+        "algorithm": "ed25519",
+        "unit": "microseconds",
+        "environment": "local Node crypto verification including public-key import",
+        "samples": [
+          140.16699999774573,
+          149.20899999924586,
+          141.29200000024866,
+          140.4999999977008,
+          140.04099999874597,
+          151.4580000002752,
+          146.70900000055553,
+          140.917000000627,
+          139.79199999812408,
+          139.50000000113505,
+          150.08300000044983,
+          140.29200000004494,
+          139.87499999711872,
+          139.75000000209548,
+          142.6659999997355,
+          146.5829999979178,
+          139.54200000080164,
+          140.12499999807915,
+          150.54199999940465,
+          141.08399999895482,
+          141.87500000116415,
+          140.0419999990845,
+          147.95800000138115,
+          142.58300000074087,
+          146.91700000184937,
+          145.95899999767425,
+          149.50000000317232,
+          146.79199999955017,
+          141.7089999995369,
+          139.8750000007567
+        ],
+        "median": 141.7089999995369,
+        "p95": 150.54199999940465,
+        "keyBytes": 32,
+        "signatureBytes": 64,
+        "messageBytes": 55,
+        "contextBytes": 0
+      },
+      {
+        "algorithm": "ml-dsa-44",
+        "unit": "microseconds",
+        "environment": "local Node crypto verification including public-key import",
+        "samples": [
+          173.3749999984866,
+          159.12500000194996,
+          164.29199999765842,
+          153.083000001061,
+          152.75000000110595,
+          231.9999999999709,
+          308.1660000025295,
+          218.66699999736738,
+          176.499999997759,
+          178.83299999812152,
+          166.54099999868777,
+          169.0420000013546,
+          161.41699999934644,
+          164.0000000006694,
+          161.16600000168546,
+          161.8750000016007,
+          148.29099999769824,
+          142.08299999882001,
+          133.66700000187848,
+          132.41700000071432,
+          133.12500000029104,
+          136.50000000052387,
+          135.9580000025744,
+          142.45800000207964,
+          135.37500000165892,
+          136.95799999914016,
+          137.33300000239979,
+          135.37500000165892,
+          133.4580000002461,
+          140.25000000037835
+        ],
+        "median": 153.083000001061,
+        "p95": 231.9999999999709,
+        "keyBytes": 1312,
+        "signatureBytes": 2420,
+        "messageBytes": 55,
+        "contextBytes": 27
+      },
+      {
+        "algorithm": "ml-dsa-65",
+        "unit": "microseconds",
+        "environment": "local Node crypto verification including public-key import",
+        "samples": [
+          197.6250000006985,
+          201.24999999825377,
+          204.83299999978044,
+          205.3749999977299,
+          217.5420000021404,
+          214.25000000090222,
+          199.58299999780138,
+          221.33299999768496,
+          212.75000000241562,
+          201.00000000093132,
+          200.7080000003043,
+          216.0409999996773,
+          196.4159999988624,
+          199.00000000052387,
+          198.04199999998673,
+          198.91699999789125,
+          197.33300000007148,
+          198.54099999793107,
+          194.99999999970896,
+          202.79200000004494,
+          196.24999999723514,
+          201.3330000008864,
+          198.6670000005688,
+          190.2909999989788,
+          173.45800000111922,
+          173.66600000241306,
+          178.79200000243145,
+          186.08400000084657,
+          171.2500000030559,
+          193.4159999982512
+        ],
+        "median": 198.91699999789125,
+        "p95": 217.5420000021404,
+        "keyBytes": 1952,
+        "signatureBytes": 3309,
+        "messageBytes": 55,
+        "contextBytes": 27
+      },
+      {
+        "algorithm": "ml-dsa-87",
+        "unit": "microseconds",
+        "environment": "local Node crypto verification including public-key import",
+        "samples": [
+          266.6250000002037,
+          264.08299999820883,
+          259.62499999877764,
+          277.2079999995185,
+          260.8749999999418,
+          264.83400000142865,
+          258.41700000091805,
+          259.87499999973807,
+          265.1670000013837,
+          262.08300000143936,
+          258.5419999995793,
+          229.70799999893643,
+          232.7079999995476,
+          237.70900000090478,
+          252.58400000166148,
+          307.7080000002752,
+          264.1250000015134,
+          242.8749999999127,
+          240.08300000059535,
+          233.4999999984575,
+          232.87499999787542,
+          227.2080000002461,
+          227.3330000025453,
+          230.54100000081235,
+          227.08300000158488,
+          231.91600000063772,
+          227.5840000002063,
+          228.91700000036508,
+          241.25000000276486,
+          228.20800000044983
+        ],
+        "median": 242.8749999999127,
+        "p95": 277.2079999995185,
+        "keyBytes": 2592,
+        "signatureBytes": 4627,
+        "messageBytes": 55,
+        "contextBytes": 27
+      }
+    ],
+    "scope": "Local CPU timings, not Soroban metered resources, network latency, throughput or a quantum-security certification."
+  },
+  "host": {
+    "host": "30.0.0",
+    "kind": "LOCAL_SOROBAN_HOST",
+    "rows": [
+      {
+        "accepted": true,
+        "algorithm": "ed25519",
+        "cpuBudgetUnits": 430801,
+        "memoryBudgetBytes": 5723
+      },
+      {
+        "accepted": true,
+        "algorithm": "ml-dsa-44",
+        "cpuBudgetUnits": 1587396,
+        "memoryBudgetBytes": 34499
+      },
+      {
+        "accepted": true,
+        "algorithm": "ml-dsa-65",
+        "cpuBudgetUnits": 2551814,
+        "memoryBudgetBytes": 53955
+      },
+      {
+        "accepted": true,
+        "algorithm": "ml-dsa-87",
+        "cpuBudgetUnits": 4144549,
+        "memoryBudgetBytes": 86723
+      }
+    ],
+    "schemaVersion": 1,
+    "scope": "Local native SDK test-contract calls and default host calibration. Excludes Wasm guest metering; not network resource fees, validator calibration, transaction capacity or wall-clock timing.",
+    "sdk": "30.0.0-rc.1"
+  },
+  "scope": "Three confirmed sequential testnet Ed25519 baseline transactions, one successful and one rejected Ed25519 preflight simulation, offline Node crypto measurements, and local Protocol 30 SDK host observations. No testnet ML-DSA host execution or network-level post-quantum security is claimed.",
+  "verifiedAt": "2026-10-24T19:33:26.249Z"
+}
